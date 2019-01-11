@@ -33,6 +33,9 @@
 Full-stack web application framework that uses Python and MariaDB on the server side and a tightly integrated client side library. Built for [ERPNext](https://erpnext.com)
 
 ### Table of Contents
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/frappe/frappe.svg)](https://greenkeeper.io/)
+
 * [Installation](#installation)
 * [License](#license)
 
