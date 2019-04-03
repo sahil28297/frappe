@@ -629,7 +629,7 @@ def call(fn, *args, **kwargs):
 	"""
 	return json.loads(frappe.as_json(frappe.call(fn, *args, **kwargs)))
 
-# Following methods are aken as-is from Python 3 codebase
+# Following methods are aken as-is from Python 3 codebases
 # since gzip.compress and gzip.decompress are not available in Python 2.7
 def gzip_compress(data, compresslevel=9):
 	"""Compress data in one shot and return the compressed string.
